@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Привилегия — апартаменты посуточно в Казани, Горки</title>
+  <meta name="description" content="Дизайнерские апартаменты посуточно в ЖК бизнес-класса «Привилегия», Казань, Горки, ул. Братьев Касимовых, 35. Заселение без ключей с 15:00, выезд до 12:00, парковка у дома, метро в 560 метрах.">
+  <meta name="theme-color" content="#2A2D32">
+  <link rel="icon" href="assets/svg/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Привилегия — квартира, в которой вас уже ждут">
+  <meta property="og:description" content="Апартаменты посуточно в Казани, Горки. Новый дизайнерский ремонт, бесконтактное заселение, заезд с 15:00.">
+  <meta property="og:image" content="https://purich755.github.io/Privilegii/assets/img/living-fireplace-1280.jpg">
+  <meta property="og:url" content="https://purich755.github.io/Privilegii/">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="960">
+
+  <!-- Флаги до первой отрисовки: JS включён, нужен ли вход «Свет включается».
+       Флаги — атрибутами, а не классами: Lenis переписывает class у <html>. -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.setAttribute('data-js', '');
+      var rm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var seen = false;
+      try { seen = sessionStorage.getItem('priv-intro') === '1'; } catch (e) {}
+      if (!rm && !seen) d.setAttribute('data-intro', '');
+      // страховка: если скрипты не загрузились, контент не остаётся скрытым
+      setTimeout(function () { if (!window.PRIV_READY) { d.removeAttribute('data-js'); d.removeAttribute('data-intro'); } }, 4500);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600&family=PT+Mono&family=Prata&display=swap&subset=cyrillic,latin" rel="stylesheet">
+  <link rel="preload" as="image" type="image/webp"
+        imagesrcset="assets/img/living-fireplace-820.webp 820w, assets/img/living-fireplace-1280.webp 1280w, assets/img/living-fireplace-2000.webp 2000w"
+        imagesizes="100vw" fetchpriority="high">
+
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/sections.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Привилегия",
+    "alternateName": "Казань Гостеприимная",
+    "description": "Дизайнерские апартаменты посуточно в ЖК бизнес-класса «Привилегия». Бесконтактное заселение, можно с детьми.",
+    "image": "https://purich755.github.io/Privilegii/assets/img/living-fireplace-1280.jpg",
+    "url": "https://purich755.github.io/Privilegii/",
+    "telephone": "+7-950-313-99-94",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Братьев Касимовых, 35",
+      "addressLocality": "Казань",
+      "addressRegion": "Республика Татарстан",
+      "addressCountry": "RU"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 55.756989, "longitude": 49.199246 },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "checkinTime": "15:00",
+    "checkoutTime": "12:00",
+    "petsAllowed": false,
+    "priceRange": "от 3 500 ₽ за сутки",
+    "sameAs": ["https://vk.ru/club225142845", "https://yandex.ru/maps/org/privilegiya/179169166043/"],
+    "amenityFeature": [
+      {"@type":"LocationFeatureSpecification","name":"Кровать king size","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Диван-кровать","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Шумоизоляция","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Кондиционер","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Wi-Fi","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Два Smart TV","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Кухня: плита, духовка, микроволновка, чайник, посуда, холодильник","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Чай и кофе","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Стиральная машина","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Утюг","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Фен","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Полотенца","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Большая ванна","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Душ","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Мини-бар","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Москитные сетки","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Уборка","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Лифт","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Бесплатная парковка у дома","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Велопарковка","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Хранение лыж и сноубордов","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Огороженный двор с детской площадкой","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Отчётные документы","value":true},
+      {"@type":"LocationFeatureSpecification","name":"Оплата наличными, картой и переводом","value":true}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Тонкие линейные иконки, нарисованные под сайт (stroke 1.25) -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12h17M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-arrow-l" viewBox="0 0 24 24"><path d="M21 12H4M10 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M4 12h16" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7.5 3.5h-3a1 1 0 0 0-1 1C3.5 13.6 10.4 20.5 19.5 20.5a1 1 0 0 0 1-1v-3l-4-1.5-2 2a12 12 0 0 1-6.5-6.5l2-2z" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H10l-4 3.5V16H4z" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><path d="M4 6h16v14H4zM4 10h16M8 3v5M16 3v5" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path d="M8 8h11v12H8zM5 16V4h11" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><path d="M6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM18 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM6 16V11a3 3 0 0 1 3-3h7" fill="none" stroke="currentColor" stroke-width="1.25"/></symbol>
+    <symbol id="i-iron" viewBox="0 0 32 24"><path d="M3 18h22.5c1.4 0 2.5-1.1 2.5-2.5C28 10 23.5 6 18 6H9.5M3 18c0-4.4 3.6-8 8-8h14.6M9.5 6V4h10M6 21h20" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+    <symbol id="i-lamp" viewBox="0 0 24 24"><path d="M8 3h8l3 8H5zM12 11v8M8 21h8" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></symbol>
+    <symbol id="i-vk" viewBox="0 0 24 24"><path d="M3.5 7h3.2c.4 3.2 1.9 5.2 3.3 5.6V7h3v3.4c1.4-.2 2.7-1.8 3.2-3.4h3c-.5 2.4-2.1 4.1-3.2 4.8 1.1.6 3 2.1 3.6 4.7h-3.2c-.6-1.7-2-3-3.4-3.2v3.2h-.6C6.6 16.5 3.8 12.9 3.5 7z" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <!-- SVG-фильтр для запасного камина (без WebGL) -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <filter id="fire-warp" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence id="fire-turb" type="fractalNoise" baseFrequency="0.012 0.05" numOctaves="2" seed="4" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
+
+  <a class="skip mono" href="#main">К содержанию</a>
+
+  <!-- 0. Вход «Свет включается» -->
+  <div class="intro" aria-hidden="true"><span class="intro-mark mono">15:00 · вас ждут</span></div>
+
+  <!-- Шапка -->
+  <header class="hdr" id="hdr">
+    <a class="hdr-logo" href="#top" aria-label="Привилегия — в начало страницы">
+      <span class="hdr-name">Привилегия</span><span class="hdr-city mono">Казань</span>
+    </a>
+    <div class="hdr-act">
+      <a class="hdr-phone mono" data-bind="tel" href="tel:+79503139994">+7 950 313-99-94</a>
+      <a class="btn btn--sm" data-bind="vkMessage" href="https://vk.me/club225142845" target="_blank" rel="noopener"><span>Свободные даты</span></a>
+    </div>
+  </header>
+
+  <!-- Шкала времени (десктоп) -->
+  <nav class="tl" id="tl" aria-label="Шкала времени: разделы страницы">
+    <div class="tl-line" aria-hidden="true"><span class="tl-runner"></span></div>
+    <ol class="tl-list">
+      <li><a href="#key" data-tl="key"><i class="tl-tick"></i><span class="tl-lab mono">15:00 вход</span></a></li>
+      <li><a href="#day" data-tl="day"><i class="tl-tick"></i><span class="tl-lab mono">21 час</span></a></li>
+      <li><a href="#guests" data-tl="guests"><i class="tl-tick"></i><span class="tl-lab mono">Гости</span></a></li>
+      <li><a href="#inside" data-tl="inside"><i class="tl-tick"></i><span class="tl-lab mono">Детали</span></a></li>
+      <li><a href="#gallery" data-tl="gallery"><i class="tl-tick"></i><span class="tl-lab mono">Осмотр</span></a></li>
+      <li><a href="#house" data-tl="house"><i class="tl-tick"></i><span class="tl-lab mono">Дом</span></a></li>
+      <li><a href="#area" data-tl="area"><i class="tl-tick"></i><span class="tl-lab mono">Район</span></a></li>
+      <li><a href="#book" data-tl="book"><i class="tl-tick"></i><span class="tl-lab mono">Отзывы</span></a></li>
+      <li><a href="#final" data-tl="final"><i class="tl-tick"></i><span class="tl-lab mono">15:00</span></a></li>
+    </ol>
+  </nav>
+
+  <!-- Нижняя панель (мобильные) -->
+  <nav class="mbar" id="mbar" aria-label="Связаться">
+    <a data-bind="tel" href="tel:+79503139994"><svg aria-hidden="true"><use href="#i-phone"/></svg>Позвонить</a>
+    <a data-bind="vkMessage" href="https://vk.me/club225142845" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-vk"/></svg>VK</a>
+    <a href="#guests"><svg aria-hidden="true"><use href="#i-cal"/></svg>Даты</a>
+  </nav>
+
+  <main id="main">
+
+    <!-- 1. Hero · 15:00 -->
+    <section class="hero" id="top" data-dark>
+      <div class="hero-stage" id="heroStage">
+        <picture class="hero-pic">
+          <source type="image/webp" sizes="100vw"
+                  srcset="assets/img/living-fireplace-820.webp 820w, assets/img/living-fireplace-1280.webp 1280w, assets/img/living-fireplace-2000.webp 2000w">
+          <img class="hero-img" id="heroImg" src="assets/img/living-fireplace-1280.jpg" sizes="100vw"
+               srcset="assets/img/living-fireplace-820.jpg 820w, assets/img/living-fireplace-1280.jpg 1280w, assets/img/living-fireplace-2000.jpg 2000w"
+               width="2000" height="1500" fetchpriority="high"
+               alt="Гостиная: на экране телевизора горит камин, под ним белый комод с рифлёными фасадами, справа бежевые портьеры и тюль">
+        </picture>
+        <!-- синемаграф: canvas строго на экране ТВ + тёплый отсвет -->
+        <div class="fire-glow fire-glow--wall" aria-hidden="true"></div>
+        <div class="fire-glow fire-glow--floor" aria-hidden="true"></div>
+        <div class="hero-spots" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="hero-dim" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <span class="tmark mono hero-tmark" id="heroMark">15:00 · вас ждут</span>
+        <p class="hero-label mono" data-letters>ЖК «Привилегия» · Казань · Горки</p>
+        <h1 class="hero-h1">
+          <span class="ln"><span class="lni">Квартира,</span></span>
+          <span class="ln"><span class="lni">в&nbsp;которой вас</span></span>
+          <span class="ln"><span class="lni">уже ждут</span></span>
+        </h1>
+        <p class="hero-sub">Апартаменты посуточно с новым дизайнерским ремонтом. Заселение без ключей и ожидания, парковка у дома, метро — в 560 метрах.</p>
+        <div class="hero-btns">
+          <a class="btn btn--light" id="heroCta" data-bind="vkMessage" href="https://vk.me/club225142845" target="_blank" rel="noopener"><span>Узнать свободные даты</span></a>
+          <a class="link-arrow" href="#gallery">Посмотреть квартиру<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+
+      <div class="hero-clock mono" aria-live="off">
+        <p><i class="dot-live" aria-hidden="true"></i>В Казани сейчас <b class="js-now">15:00</b></p>
+        <p>Ближайшее заселение — <span class="js-next">сегодня</span> в 15:00</p>
+        <button class="hero-lamp mono" type="button" aria-pressed="false"><svg aria-hidden="true"><use href="#i-lamp"/></svg><span>Вечерний свет</span></button>
+      </div>
+
+      <ul class="hero-facts mono">
+        <li>Заезд 15:00</li><li>Выезд 12:00</li><li>Круглосуточно</li><li>Парковка бесплатно</li>
+      </ul>
+    </section>
+
+    <!-- 2. «Ключ» · 15:05 -->
+    <section class="key" id="key" data-dark>
+      <div class="key-in wrap">
+        <div class="key-text">
+          <span class="tmark mono">15:05 · вход</span>
+          <div class="key-steps">
+            <div class="key-step">
+              <h2 class="h2">Ключи вам не&nbsp;понадобятся.</h2>
+              <p>Заселение самостоятельное и бесконтактное. Без ресепшена, очередей и «подождите, администратор подъедет».</p>
+            </div>
+            <div class="key-step">
+              <h3 class="h2">Пишете — получаете инструкцию — заходите.</h3>
+              <ol class="key-list mono">
+                <li><b>01</b>Пишете или звоните</li>
+                <li><b>02</b>Получаете инструкцию</li>
+                <li><b>03</b>Заходите с 15:00</li>
+              </ol>
+            </div>
+            <div class="key-step">
+              <h3 class="h2">А залог возвращаем вовремя.</h3>
+              <p>Это про нас пишут в отзывах. Мелочь, но именно её боятся все, кто снимает посуточно.</p>
+            </div>
+          </div>
+          <p class="key-count mono" aria-hidden="true"><span class="key-n">01</span> / 03</p>
+        </div>
+
+        <div class="key-stage" aria-hidden="true">
+          <div class="door-wall">
+            <div class="door-spill"></div>
+            <div class="door-frame">
+              <div class="door-behind">
+                <picture>
+                  <source type="image/webp" srcset="assets/img/living-sofa-900.webp">
+                  <img src="assets/img/living-sofa-900.jpg" width="900" height="1200" loading="lazy" alt="">
+                </picture>
+              </div>
+              <div class="door">
+                <div class="door-face door-front"><i class="door-handle"></i><i class="door-eye"></i></div>
+                <div class="door-face door-back"></div>
+              </div>
+            </div>
+            <div class="door-floor"></div>
+          </div>
+        </div>
+
+        <figure class="key-print">
+          <div class="pp" data-pp><div class="pp-in">
+            <picture>
+              <source type="image/webp" srcset="assets/img/entry-door.webp">
+              <img src="assets/img/entry-door.jpg" width="508" height="700" loading="lazy" alt="Открытая входная дверь квартиры, рядом видеодомофон и зеркальный шкаф">
+            </picture>
+          </div></div>
+          <figcaption class="cap mono">Та самая дверь · видеодомофон</figcaption>
+        </figure>
+        <p class="key-plate mono">Можно с детьми · отчётные документы для командировок</p>
+      </div>
+    </section>
+
+    <!-- 3. «21 час» -->
+    <section class="day" id="day">
+      <div class="day-pin">
+        <div class="day-top wrap">
+          <h2 class="tmark mono day-title" data-letters>21 час в «Привилегии»</h2>
+          <span class="mono day-range" aria-hidden="true">15:00 → 12:00</span>
+        </div>
+        <div class="day-grid wrap">
+          <div class="day-clock">
+            <svg class="dial" id="dial" viewBox="0 0 400 400" aria-hidden="true">
+              <circle class="dial-ring" cx="200" cy="200" r="192"/>
+              <circle class="dial-ring dial-ring--in" cx="200" cy="200" r="150"/>
+              <g class="dial-ticks"></g>
+              <g class="dial-nums">
+                <text x="200" y="58">12</text><text x="348" y="212">3</text><text x="200" y="362">6</text><text x="52" y="212">9</text>
+              </g>
+              <g class="hand hand-h"><line x1="200" y1="214" x2="200" y2="96"/></g>
+              <g class="hand hand-m"><line x1="200" y1="226" x2="200" y2="40"/></g>
+              <circle class="dial-pin" cx="200" cy="200" r="5"/>
+            </svg>
+            <p class="day-time" aria-hidden="true"><span class="js-dh">15</span><i>:</i><span class="js-dm">00</span></p>
+            <div class="day-scale" aria-hidden="true"></div>
+            <p class="day-scale-lab mono" aria-hidden="true">прошло <span class="js-hours">0</span> из 21 часа</p>
+          </div>
+          <div class="day-scenes" id="dayScenes"><!-- шесть сцен из config.js --></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. «Кто едет?» -->
+    <section class="guests" id="guests">
+      <div class="wrap">
+        <header class="sec-head guests-head">
+          <span class="tmark mono">планируем</span>
+          <h2 class="h2" data-split>Сколько вас — <span class="acc">и&nbsp;зачем</span> вы в Казани?</h2>
+        </header>
+        <div class="guests-grid">
+          <div class="g-left">
+            <div class="g-step" data-rv>
+              <p class="g-steplab mono">А · сколько гостей</p>
+              <div class="g-counter">
+                <button class="g-btn" type="button" data-d="-1" aria-label="Меньше гостей"><svg aria-hidden="true"><use href="#i-minus"/></svg></button>
+                <div class="g-num" aria-live="polite" aria-atomic="true"><span class="g-num-in">2</span><span class="sr-only js-gsr">2 гостя</span></div>
+                <button class="g-btn" type="button" data-d="1" aria-label="Больше гостей"><svg aria-hidden="true"><use href="#i-plus"/></svg></button>
+                <span class="g-unit mono js-gunit" aria-hidden="true">гостя</span>
+              </div>
+              <div class="g-beds" aria-hidden="true">
+                <figure class="g-bed" data-bed="bed">
+                  <svg viewBox="0 0 160 90"><path d="M10 78V30M10 54h140M150 78V50M10 46c0-6 4-9 10-9h22c6 0 10 3 10 9v8M58 54v-8c0-6 4-9 10-9h24M14 78v-6M146 78v-6M24 37V22c0-3 2-5 5-5h102c3 0 5 2 5 5v28"/></svg>
+                  <figcaption class="mono">Кровать king size</figcaption>
+                </figure>
+                <figure class="g-bed" data-bed="sofa">
+                  <svg viewBox="0 0 160 90"><path d="M22 70V40c0-6 4-10 10-10h96c6 0 10 4 10 10v30M10 70V50c0-5 3-8 7-8s7 3 7 8v6h112v-6c0-5 3-8 7-8s7 3 7 8v20zM24 56h112M80 32v24M18 70v8M142 70v8"/></svg>
+                  <figcaption class="mono">Диван-кровать</figcaption>
+                </figure>
+                <figure class="g-bed" data-bed="chair">
+                  <svg viewBox="0 0 110 90"><path d="M26 66V30c0-6 4-10 10-10h38c6 0 10 4 10 10v36M14 70V48c0-4 3-7 6-7s6 3 6 7v8h58v-8c0-4 3-7 6-7s6 3 6 7v22zM26 56h58M22 70v8M88 70v8"/></svg>
+                  <figcaption class="mono">Кресло</figcaption>
+                </figure>
+              </div>
+              <p class="g-note">Схема условная — точную планировку пришлём в переписке.</p>
+            </div>
+            <div class="g-step" data-rv>
+              <p class="g-steplab mono" id="purposeLab">Б · повод</p>
+              <div class="chips g-purpose" role="radiogroup" aria-labelledby="purposeLab"><!-- из config.js --></div>
+            </div>
+          </div>
+
+          <aside class="g-card" id="gCard" aria-live="polite" data-rv>
+            <p class="g-card-lab mono">Вам подойдёт</p>
+            <h3 class="g-title" data-flip-id="title">Номер для двоих</h3>
+            <p class="g-desc" data-flip-id="desc"></p>
+            <p class="g-hint" data-flip-id="hint" hidden></p>
+            <div class="g-price" data-flip-id="price"></div>
+            <ul class="g-perks"></ul>
+            <p class="g-msg-lab mono">Готовое сообщение</p>
+            <blockquote class="g-msg" data-flip-id="msg"></blockquote>
+            <div class="g-actions" data-flip-id="actions">
+              <a class="btn" data-bind="vkMessage" href="https://vk.me/club225142845" target="_blank" rel="noopener"><span>Спросить про даты</span></a>
+              <button class="btn-line js-copy" type="button"><svg aria-hidden="true"><use href="#i-copy"/></svg><span>Скопировать сообщение</span></button>
+            </div>
+            <p class="g-or" data-flip-id="or">Или позвоните: <a data-bind="tel" href="tel:+79503139994">+7 950 313-99-94</a></p>
+          </aside>
+        </div>
+        <p class="g-extra mono" data-rv></p>
+      </div>
+    </section>
+
+    <!-- 5. «Всё уже на месте» -->
+    <section class="inside" id="inside" data-dark>
+      <div class="wrap inside-grid">
+        <header class="sec-head inside-head">
+          <span class="tmark mono">чек-лист</span>
+          <h2 class="h2" data-split>Можно приехать с&nbsp;одной зубной щёткой</h2>
+          <p class="host-note" data-rv>Остальное уже здесь — проверяли лично.</p>
+        </header>
+        <ol class="inside-list" id="insideList"><!-- из config.js --></ol>
+        <aside class="inside-more mono" data-rv>
+          <p class="inside-more-lab">Ещё</p>
+          <p class="js-more"></p>
+        </aside>
+      </div>
+      <div class="inside-preview" id="insidePreview" aria-hidden="true">
+        <div class="pp"><div class="pp-in"><img alt="" width="320" height="240"><img alt="" width="320" height="240"></div></div>
+      </div>
+    </section>
+
+    <!-- 6. «Постель проглажена» · 23:40 -->
+    <section class="iron" id="iron">
+      <div class="wrap iron-grid">
+        <div class="iron-quote">
+          <span class="tmark mono">23:40 · перед сном</span>
+          <blockquote>
+            <p class="iron-q" data-split>«Постель проглажена с&nbsp;приятным запахом.»</p>
+            <footer class="mono" data-rv>Карим, гость</footer>
+          </blockquote>
+          <p class="iron-note" data-rv>Мы не придумывали этот блок — гости сами пишут о чистоте почти в каждом отзыве.</p>
+        </div>
+        <figure class="iron-fig" data-rv>
+          <div class="pp"><div class="pp-in iron-stage" id="ironStage">
+            <picture>
+              <source type="image/webp" srcset="assets/img/bedroom-bed-1000.webp 1000w, assets/img/bedroom-bed-1600.webp 1600w" sizes="(min-width: 1024px) 56vw, 100vw">
+              <img class="iron-img" src="assets/img/bedroom-bed-1000.jpg" srcset="assets/img/bedroom-bed-1000.jpg 1000w, assets/img/bedroom-bed-1600.jpg 1600w"
+                   sizes="(min-width: 1024px) 56vw, 100vw" width="1600" height="1200" loading="lazy"
+                   alt="Кровать с гладким белым бельём, две подушки и мягкое стёганое изголовье на фоне обоев «туманный лес»">
+            </picture>
+            <canvas class="iron-canvas" id="ironCanvas" aria-hidden="true"></canvas>
+            <div class="iron-steam" aria-hidden="true"></div>
+            <p class="iron-done mono" aria-live="polite"></p>
+          </div></div>
+          <figcaption class="iron-cap">
+            <span class="mono iron-hint"><svg aria-hidden="true"><use href="#i-iron"/></svg>Проведите по простыне</span>
+            <button class="btn-line iron-reset" type="button" hidden><span>Ещё раз</span></button>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 7. Галерея «Осмотритесь до приезда» -->
+    <section class="gallery" id="gallery">
+      <div class="wrap">
+        <header class="sec-head gal-head">
+          <span class="tmark mono">осмотр</span>
+          <h2 class="h2" data-split>Осмотритесь до&nbsp;приезда</h2>
+          <p data-rv>Все фото — настоящие. Так квартира выглядит, когда вы открываете дверь.</p>
+        </header>
+        <div class="gal-bar">
+          <div class="chips gal-filters" id="galFilters" role="group" aria-label="Фильтр фото по комнатам"><!-- из config.js --></div>
+          <button class="gal-all link-arrow" type="button">Смотреть все · <span class="js-gal-n">32 фото</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+        <div class="mosaic" id="mosaic"><!-- из config.js --></div>
+        <figure class="teaser" data-rv>
+          <div class="pp"><div class="pp-in">
+            <video class="teaser-video" muted loop playsinline preload="none" poster="assets/img/teaser-poster.jpg"
+                   data-src="assets/video/teaser.mp4" aria-label="Короткое видео: ванна крупно и светлая гостиная"></video>
+          </div></div>
+          <figcaption class="cap mono">Видео от хозяйки · ванная и гостиная</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 8. «Дом» -->
+    <section class="house" id="house" data-dark>
+      <div class="house-brick" aria-hidden="true"></div>
+      <div class="wrap house-grid">
+        <header class="sec-head house-head">
+          <span class="tmark mono">ЖК «Привилегия»</span>
+          <h2 class="h2" data-split>Дом, в который приятно возвращаться</h2>
+        </header>
+        <div class="house-photos">
+          <figure class="house-main">
+            <div class="pp" data-pp><div class="pp-in">
+              <picture>
+                <source type="image/webp" srcset="assets/img/house-lobby-900.webp 900w, assets/img/house-lobby-1400.webp 1400w" sizes="(min-width: 1024px) 40vw, 90vw">
+                <img class="js-par" src="assets/img/house-lobby-900.jpg" srcset="assets/img/house-lobby-900.jpg 900w, assets/img/house-lobby-1400.jpg 1400w"
+                     sizes="(min-width: 1024px) 40vw, 90vw" width="1400" height="1859" loading="lazy"
+                     alt="Холл жилого комплекса: вывеска «Привилегия», два розовых кресла и плитка «кирпичик»">
+              </picture>
+            </div></div>
+            <figcaption class="cap mono">Холл · вывеска «Привилегия»</figcaption>
+          </figure>
+          <figure class="house-side">
+            <div class="pp" data-pp><div class="pp-in">
+              <picture>
+                <source type="image/webp" srcset="assets/img/house-tower-800.webp">
+                <img src="assets/img/house-tower-800.jpg" width="800" height="1095" loading="lazy" alt="Высотный дом с кирпичным фасадом и большими окнами, перед ним парковка">
+              </picture>
+            </div></div>
+            <figcaption class="cap mono">Фасад · парковка у дома</figcaption>
+          </figure>
+          <figure class="house-yard">
+            <div class="pp" data-pp><div class="pp-in">
+              <picture>
+                <source type="image/webp" srcset="assets/img/house-yard-chess-800.webp">
+                <img src="assets/img/house-yard-chess-800.jpg" width="800" height="1073" loading="lazy" alt="Двор жилого комплекса: большие уличные шахматы и детская площадка">
+              </picture>
+            </div></div>
+            <figcaption class="cap mono">Двор · шахматы и площадка</figcaption>
+          </figure>
+        </div>
+        <div class="house-facts">
+          <ol class="house-list">
+            <li data-rv><span class="mono">01</span>Авторский проект архитектора Ильсияр Тухватуллиной</li>
+            <li data-rv><span class="mono">02</span>Фасад из глазурованного кирпича и немецкого клинкера</li>
+            <li data-rv><span class="mono">03</span>Холл, который сравнивают с вестибюлем отеля</li>
+            <li data-rv><span class="mono">04</span>Огороженный двор с детской площадкой</li>
+            <li data-rv><span class="mono">05</span>Рядом — Горкинско-Ометьевский лесопарк</li>
+          </ol>
+          <div class="house-floors" aria-label="От 20 до 25 этажей">
+            <span class="house-num js-floors" aria-hidden="true">20–25</span>
+            <span class="mono house-num-lab" aria-hidden="true">этажей</span>
+          </div>
+          <p class="house-view" data-rv>Из окон — Казань. Красивый вид из окна отмечен даже на Картах.</p>
+          <p class="house-src mono" data-rv>О доме — по материалам «Бизнес Online»</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. «Горки» -->
+    <section class="area" id="area">
+      <div class="wrap area-grid">
+        <header class="sec-head area-head">
+          <span class="tmark mono">район</span>
+          <h2 class="h2" data-split>Тихий район. <span class="acc">Всё&nbsp;— близко.</span></h2>
+        </header>
+        <div class="radar" id="radar">
+          <svg class="radar-svg" viewBox="0 0 520 520" aria-hidden="true">
+            <circle class="r-ring" cx="260" cy="260" r="62"/>
+            <circle class="r-ring" cx="260" cy="260" r="124"/>
+            <circle class="r-ring" cx="260" cy="260" r="186"/>
+            <circle class="r-ring" cx="260" cy="260" r="248"/>
+            <circle class="r-wave" cx="260" cy="260" r="186"/>
+            <circle class="r-wave" cx="260" cy="260" r="186"/>
+            <rect class="r-home" x="252" y="252" width="16" height="16"/>
+            <g class="r-dots"></g>
+          </svg>
+          <p class="radar-home mono">Братьев Касимовых, 35</p>
+          <ul class="radar-labels" aria-label="Что рядом с домом"><!-- из config.js --></ul>
+          <p class="radar-note mono">Схема, не карта: масштаб условный, порядок — верный</p>
+        </div>
+        <div class="area-why">
+          <h3 class="mono area-why-lab" id="whyLab">Зачем вы в Казани?</h3>
+          <div class="chips area-chips" role="radiogroup" aria-labelledby="whyLab"><!-- из config.js --></div>
+          <div class="why-box" aria-live="polite"><div class="why-in"><p class="why-text"></p></div></div>
+        </div>
+        <figure class="area-map" data-rv>
+          <div class="pp"><div class="pp-in map-in" tabindex="0" aria-label="Карта: дом на улице Братьев Касимовых, 35, рядом Горкинский лес и метро «Горки»">
+            <picture class="map-static">
+              <source media="(max-width: 767px)" type="image/webp" srcset="assets/img/map-gorki-sm.webp">
+              <source media="(max-width: 767px)" srcset="assets/img/map-gorki-sm.jpg">
+              <source type="image/webp" srcset="assets/img/map-gorki.webp">
+              <img src="assets/img/map-gorki.jpg" width="2000" height="762" loading="lazy"
+                   alt="Схема улиц вокруг ЖК «Привилегия»: улица Братьев Касимовых, улица Рихарда Зорге, Горкинский лес и станция метро «Горки»">
+            </picture>
+            <span class="map-pin" aria-hidden="true"><i></i><b class="mono">Привилегия · Братьев Касимовых, 35</b></span>
+            <span class="map-osm mono">© OpenStreetMap</span>
+            <button class="map-live mono" type="button">Интерактивная карта</button>
+            <iframe class="map-frame" title="Яндекс.Карта: ул. Братьев Касимовых, 35, Казань" hidden></iframe>
+          </div></div>
+          <figcaption class="map-cap">
+            <span class="mono"><span data-bind-text="address">ул. Братьев Касимовых, 35, Казань</span> · ЖК «Привилегия»</span>
+            <span class="map-btns">
+              <a class="btn" data-bind="route" href="https://yandex.ru/maps/?rtext=~55.756989,49.199246&amp;rtt=auto" target="_blank" rel="noopener"><span>Построить маршрут</span></a>
+              <a class="link-arrow" data-bind="yandexMaps" href="https://yandex.ru/maps/org/privilegiya/179169166043/" target="_blank" rel="noopener">Открыть в Яндекс.Картах<svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 10. «Книга гостей» -->
+    <section class="book" id="book" data-dark>
+      <div class="wrap book-grid">
+        <div class="book-left">
+          <span class="tmark mono">отзывы</span>
+          <h2 class="h2" data-split>Что пишут, уезжая</h2>
+          <ul class="promises">
+            <li data-rv><span class="mono">Отвечаем быстро</span><q>всегда оперативно отвечает</q><em class="mono">Карина</em></li>
+            <li data-rv><span class="mono">Встречаем вежливо</span><q>вежливость и доброжелательность хозяйки</q><em class="mono">Ильяс</em></li>
+            <li data-rv><span class="mono">Залог — вовремя</span><q>залог вернули вовремя</q><em class="mono">Руслан</em></li>
+          </ul>
+        </div>
+        <div class="deck-wrap" data-rv>
+          <div class="deck" id="deck" tabindex="0" role="group" aria-roledescription="колода отзывов"
+               aria-label="Отзывы гостей. Стрелки влево и вправо листают."><!-- из config.js --></div>
+          <div class="deck-nav">
+            <button class="deck-btn" type="button" data-dir="-1" aria-label="Предыдущий отзыв"><svg aria-hidden="true"><use href="#i-arrow-l"/></svg></button>
+            <p class="mono deck-count" aria-hidden="true"><span class="js-dn">01</span> / <span class="js-dt">07</span></p>
+            <button class="deck-btn" type="button" data-dir="1" aria-label="Следующий отзыв"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+          <p class="sr-only js-deck-live" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Финал · 15:00 -->
+    <section class="final" id="final" data-dark>
+      <div class="final-bg" id="finalStage" aria-hidden="true">
+        <picture>
+          <source type="image/webp" srcset="assets/img/kitchen-living-1280.webp 1280w, assets/img/kitchen-living-2000.webp 2000w" sizes="100vw">
+          <img class="final-img" src="assets/img/kitchen-living-1280.jpg" srcset="assets/img/kitchen-living-1280.jpg 1280w, assets/img/kitchen-living-2000.jpg 2000w"
+               sizes="100vw" width="2000" height="1500" loading="lazy" alt="">
+        </picture>
+      </div>
+      <div class="final-shade" aria-hidden="true"></div>
+      <div class="final-in wrap">
+        <p class="mono final-lab">До ближайшего заселения</p>
+        <div class="count" id="count" role="timer" aria-live="off"></div>
+        <h2 class="h2 final-h" data-split>Успеете написать.</h2>
+        <p class="final-sub" data-rv>Позвоните или напишите в VK — ответим быстро, подскажем свободные даты и как доехать.</p>
+        <div class="final-btns" data-rv>
+          <a class="btn-ember" data-bind="tel" href="tel:+79503139994"><span class="mono">Позвонить</span><b data-bind-text="phoneShort">+7 950 313-99-94</b></a>
+          <a class="btn btn--light" data-bind="vkMessage" href="https://vk.me/club225142845" target="_blank" rel="noopener"><span>Написать в VK</span></a>
+          <a class="link-arrow link-arrow--light" data-bind="route" href="https://yandex.ru/maps/?rtext=~55.756989,49.199246&amp;rtt=auto" target="_blank" rel="noopener">Маршрут в Яндекс.Картах<svg aria-hidden="true"><use href="#i-route"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ftr">
+    <div class="wrap ftr-grid">
+      <div class="ftr-brand">
+        <p class="ftr-name">Привилегия</p>
+        <p class="mono ftr-tag" data-bind-text="tagline">апартаменты посуточно · Казань гостеприимная</p>
+      </div>
+      <address class="ftr-col">
+        <span data-bind-text="address">ул. Братьев Касимовых, 35, Казань</span><br>
+        <span class="ftr-muted">ЖК «Привилегия», Приволжский район, Горки</span>
+      </address>
+      <div class="ftr-col">
+        <a data-bind="tel" href="tel:+79503139994"><span data-bind-text="phone">+7 (950) 313-99-94</span></a><br>
+        <a data-bind="vk" href="https://vk.ru/club225142845" target="_blank" rel="noopener">VK · Казань Гостеприимная</a>
+      </div>
+      <div class="ftr-col mono ftr-rules">Заезд 15:00 · Выезд 12:00<br>Круглосуточно</div>
+      <p class="ftr-bottom mono"><span>© 2026 Привилегия</span><span>Демо-версия сайта</span></p>
+    </div>
+  </footer>
+
+  <!-- Лайтбокс галереи -->
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Просмотр фото" hidden data-lenis-prevent>
+    <div class="lb-bg"></div>
+    <div class="lb-top">
+      <p class="mono lb-count"><span class="js-lbn">01</span> / <span class="js-lbt">24</span></p>
+      <p class="mono lb-cap js-lbcap"></p>
+      <button class="lb-btn lb-close" type="button" aria-label="Закрыть"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="lb-stage">
+      <div class="lb-zoom"><img class="lb-img" alt=""></div>
+    </div>
+    <button class="lb-btn lb-prev" type="button" aria-label="Предыдущее фото"><svg aria-hidden="true"><use href="#i-arrow-l"/></svg></button>
+    <button class="lb-btn lb-next" type="button" aria-label="Следующее фото"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    <div class="lb-thumbs" role="listbox" aria-label="Все фото"></div>
+  </div>
+
+  <!-- Курсор (только мышь) -->
+  <div class="cur" id="cur" aria-hidden="true"><span class="cur-dot"></span><span class="cur-ring mono"><span class="cur-txt"></span><svg class="cur-iron"><use href="#i-iron"/></svg></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <script src="assets/js/config.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Flip.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js" defer></script>
+  <script src="assets/js/fireplace.js" defer></script>
+  <script src="assets/js/scenes.js" defer></script>
+  <script src="assets/js/configurator.js" defer></script>
+  <script src="assets/js/details.js" defer></script>
+  <script src="assets/js/gallery.js" defer></script>
+  <script src="assets/js/deck.js" defer></script>
+  <script src="assets/js/ambient.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

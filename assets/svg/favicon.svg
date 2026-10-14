@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#2A2D32"/>
+  <!-- «П» в духе Prata: контрастные штамбы, тонкая перекладина, засечки -->
+  <path fill="#F7F3EE" d="M14 15h36v2.2h-3.4V47.4h3.4V49.6H37.4v-2.2h3.4V17.4H23.2v30h3.4v2.2H14v-2.2h3.4V17.2H14z"/>
+  <circle cx="51" cy="13" r="2.4" fill="#E4572E"/>
+</svg>
